@@ -25,24 +25,24 @@ var doBFS = function(graph, source) {
     var queue = new Queue();
     queue.enqueue(source);
 
-    // Traverse the graph
+    // Traverse the graph - NEED TO GET THIS PART WORKING
     
-    while (!queue.isEmpty()) {
-        var stack = queue.dequeue();
+//     while (!queue.isEmpty()) {
+//         var stack = queue.dequeue();
     
-        for (; ; ) {
-        var  = graph[][];
+//         for (; ; ) {
+//         var  = graph[][];
     
-        if (bfsInfo[]. === ) {
-            ;
-            ;
-            ;
-        }
-        }
-    }
+//         if (bfsInfo[]. === ) {
+//             ;
+//             ;
+//             ;
+//         }
+//         }
+//     }
     
-    return bfsInfo;
-};
+//     return bfsInfo;
+// };
 
 
 var adjList = [
